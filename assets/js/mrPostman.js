@@ -12,7 +12,6 @@ $("#submitEmail").click(function(){
 
             //var content = $( data ).find( "#content" ).val();
             $( "#result" ).append( "</br>" /*+ data*/ );
-            $( "#result" ).append("gianbirilloEarzillo");
     
     });
 
