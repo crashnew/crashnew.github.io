@@ -71,31 +71,43 @@ section { overflow: hidden; }*/
 .roomy-100 {
     padding-top: 50px;
     padding-bottom: 50px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .roomy-80 {
     padding-top: 100px;
     padding-bottom: 80px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .roomy-70 {
     padding-top: 100px;
     padding-bottom: 70px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .roomy-60 {
     padding-top: 100px;
     padding-bottom: 60px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .roomy-50 {
     padding-top: 50px;
     padding-bottom: 50px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .roomy-40 {
     padding-top: 40px;
     padding-bottom: 40px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 
@@ -167,6 +179,7 @@ a {
 
 p {
     margin: 0 0 15px;
+	font-size: 16px;
 }
 
 .clear {
@@ -1024,6 +1037,8 @@ Home Section style
     overflow: hidden;
     padding-top: 300px;
     padding-bottom: 230px;
+    padding-right: 15px;
+	padding-left: 15px;
     position: relative;
     z-index: 1;
 }
@@ -1034,6 +1049,18 @@ Home Section style
     line-height: 6.5rem;
 }
 
+@media (max-width: 992px) {
+	.main_home{
+	  padding-top: 20vh;
+	  padding-bottom: 15vh;
+	}
+	
+	.home_text h1{
+      font-size: 3.286rem;
+      font-weight: 700;
+      line-height: 5.0rem;
+	}
+}
 
 
 /*

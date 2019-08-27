@@ -997,6 +997,10 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         float: none !important;
         margin: 0 !important;
     }
+
+  .navbar-brand img {
+	max-height: 100%;
+  }
     
     nav.navbar.bootsnav .navbar-header {
         float: none;
